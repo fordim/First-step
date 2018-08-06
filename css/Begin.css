@@ -1,0 +1,179 @@
+h1.number1{
+    width:100px;
+    transform:translate(500px, 500px);
+}
+header{
+    position:relative;
+    display:block;
+    color:#989899 !important;
+    font-family:verdana, arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+div.first1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: auto;
+    max-height:300px;
+    min-height:130px;
+    max-width: 1210px;
+    min-width: 320px;
+    position: relative;
+    background: #121215;
+    padding: 20px;
+    -moz-box-shadow: 0 0 5px #000;
+    -webkit-box-shadow: 0 0 5px #000;
+    box-shadow: 0 0 5px #000;
+}
+div.backimg{
+    background:rgb(61, 39, 61)
+    url(https://s1.1zoom.ru/prev2/515/Magical_animals_DOTA_2_Mirana_Archers_514076_300x168.jpg) center top no-repeat !important;
+    padding:168px 0px 0px !important;
+    margin:auto;
+    width:300px;
+    min-width:100px;
+    display:block;
+    background-size:cover;
+}
+body{
+    background: url(http://mmonlinegames.ru/wp-content/uploads/2013/11/%D0%9E%D0%B1%D0%BE%D0%B8-%D0%BA-%D0%B8%D0%B3%D1%80%D0%B5-Dota-2_01.png) no-repeat #564;
+    -moz-background-size:100%;
+    -webkit-background-size:100%;
+    -o-background-size:100%;
+    background-size:100%;
+}
+#backimg2{
+    position: absolute;
+    margin:auto;
+    top: 0;
+    width: 300px;
+    height: 168px;
+}
+div.topline{
+    height:55px;
+    background: #2b2c32;
+    -moz-box-shadow: 0 0 2px 0 #000;
+    -webkit-box-shadow: 0 0 2px 0 #000;
+    box-shadow: 0 0 2px 0 #000;
+    position: relative;
+}
+li.active{
+    background:#111111e5;
+    height:55px;
+    width:180px;
+    text-align:left;
+    list-style:none;
+    padding:0 0 0;
+}
+header.img{
+    width: 130px;
+    vertical-align: middle;
+    margin: -3px 0 0;
+}
+header ul.nav-menu-ul>li{
+    float: left;
+    position: relative;
+    display: list-item;
+    text-align: -webkit-match-parent;
+    font-family:verdana, arial, sans-serif;
+    padding:0px 15px;
+    line-height: 51px;
+    display: block;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+    font-size: 20px;
+    color:grey; 
+}
+#img3{
+    width: 180px;
+    vertical-align: middle;
+    margin: -3px 0 0;
+    padding:0 0 0;
+    height:55px;
+}
+#h1img{
+    margin: 0 0 0;
+    width:180px;
+    height:55px;
+}
+div.subline{
+    height:35px;
+    background: #2b2c32;
+    -moz-box-shadow: 0 0 2px 0 #000;
+    -webkit-box-shadow: 0 0 2px 0 #000;
+    box-shadow: 0 0 2px 0 #000;
+    position: relative;
+    z-index: 210;
+    margin-top: 5px;
+}
+header .social {
+    float: left;
+    line-height: 35px;
+    font-size: 15px;
+    margin-top:2px;
+}
+header .social a {
+    color: #969ca5;
+    padding: 0 8px;
+    font-size: 20px;
+    background:transparent;
+}
+header .steam-status {
+    position: relative;
+    float: left;
+    width: 180px;
+    padding: 0 8px;
+    margin-left: 15px;
+    margin-top: 5px;
+    font-size: 16px;
+}
+header .steam-status .status-online {
+    color: #1cbb45;
+}
+header #menu-search-link, header #menu-search {
+    float: right;
+    height: 35px;
+    text-align: right;
+    margin-right:10px;
+    margin-top:5px;
+}
+header .login {
+    float: right;
+    color: #969ca5;
+    margin-right:15px;
+    margin-top:2px;
+}
+div.steam-status-all{
+    display:none;
+    background:#2b2c32;
+    position:absolute;
+    width:12em;
+    float:left;
+    line-height:30px
+}
+div.steam-status:hover div.steam-status-all{
+    display:block;
+}
+
+
+
+
+ul.submenu {
+    display: none;
+    position: absolute;
+    width: 120px;
+    top: 37px;
+    left: 0;
+    background-color: #2b2c32;
+    z-index:1000;
+    padding:0px;
+}
+
+
+
+ul.nav-menu-ul > li:hover > ul.submenu{
+    display:block;
+}
