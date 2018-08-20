@@ -1,0 +1,145 @@
+div.main-b-left{
+    width: 49.5%;
+    margin: 0 1.6% 20px 0;
+    display:block;
+    background:#151619;
+
+}
+.m-stream{
+    padding: 0 0 15px;
+    margin: 0 0 20px;
+    background: #151619;
+    display:block;
+}
+h2{
+    background: #2b2c32;
+    text-align: center;
+    border-radius: 3px 3px 0 0;
+    line-height: 37px;
+    font-size: 20px;
+    font-weight: normal;
+    min-width: 50px;
+    color: #a8a8aa;
+    margin:15px;
+    font-family: verdana, arial, sans-serif;
+}
+.item{
+    width: 22.5%;
+    height: auto;
+    font-size: 12px;
+    margin-left: 2%;
+    float:left;
+    position:relative;
+}
+.streamer-img{
+    width:130px;
+    height:100px;
+}
+ul.active li{
+    float:left;
+    position:relative;
+    font-size:15px;
+    height: 40px;
+    line-height: 40px;
+    background: #151619;
+    padding: 0 15px;
+    overflow: hidden;
+    color:#a8a8aa;
+    line-height:2;
+    font-family: verdana, arial, sans-serif;
+}
+section.a-new{
+    position:relative;
+    background: #1b1c20;
+    display:block;
+}
+div.clear{
+    clear:both;
+}
+ul.active > li:hover{
+    color:rgb(25, 98, 139);
+}
+div.i-news{
+    display:inline-block;
+    color: #989899 !important;
+    font-family: verdana, arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+article.sticky{
+    position:relative;
+    display:block;
+
+}
+div.content{
+    position:relative;
+    margin:0 0 10px;
+    display:block;
+}
+#news-categories-blocks{
+    margin: 0 2% 0 0;
+    max-width: 160px;
+    width: 30%;
+    border:0
+}
+div.inline{
+    width:68%;
+}
+.title{
+    font-size: 16px;
+    line-height: 1.4;
+    color: #fff;
+    margin: 0 0 3px;
+    font-weight:normal;
+    padding:0;
+}
+.text{
+    font-size: 14px;
+    line-height: 1.4;
+    overflow: hidden;
+    display:block;
+    color:#989899;
+}
+.info{
+    font-size: 12px;
+    line-height: 1;
+    color: #767779;
+    margin: 5px 0 0;
+    display:block;
+}
+div.main-b-right{
+    width: 49.2%;
+    float: right;
+    margin: 0 0 20px;
+    display:block;
+    color: #989899 !important;
+    font-family: verdana, arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+div.main-b-right-c-left{
+    width: 48.4%;
+    margin: 0 3.2% 20px 0;
+    float: left;
+    display:block;
+    color: #989899 !important;
+    font-family: verdana, arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+.m-forum{
+    width: 100%;
+    margin: 0 0 20px;
+    position: relative;
+    background: #1b1c20;
+    display:block;
+}
+.m-forum .item{
+    height: 35px;
+    line-height: 35px;
+    position: relative;
+    display:block;
+}
+div.content{
+    clear:both;
+}
