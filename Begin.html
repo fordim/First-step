@@ -5,22 +5,21 @@
         <link rel="stylesheet" href="css/reset.css">
         <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
         <link href="css/Begin.css" rel="stylesheet">
+        <link href="css/block.css" rel="stylesheet">
     </head>
         <body style="background-attachment:fixed" topmargin="0">
             <div class="backimg">
                 <a href="backimg.html" id="backimg2"> 
                 </a>
             </div>
-            <div class="first1">
+            <div class="mainback">
                 <header>
                     <div class="topline">
                         <ul class="nav-menu-ul">
                             <li class="active">
-                                <h1 id="h1img">
-                                    <a href="Begin.html">
-                                        <img src="img/dota2.png" alt="Dota 2 information" id="img3">
-                                    </a>
-                                </h1>
+                                <a href="Begin.html">
+                                    <img src="img/dota2.png" alt="Dota 2 information" id="img3">
+                                </a>
                             </li>
                             <li>
                                 <a href="toptable/forum.html">Форум</a>
@@ -28,10 +27,10 @@
                             <li>
                                 <a href="toptable/shop.html">Магазин</a>
                                 <ul class="submenu">
-                                    <li class="shop1">
+                                    <li>
                                         <a href="toptable/shop1.html">Магазин1</a>
                                     </li>
-                                    <li class="shop2">
+                                    <li>
                                         <a href="toptable/shop2.html">Магазин2</a>
                                     </li>
                                 </ul>
@@ -89,18 +88,116 @@
                                 </div>
                             </div>
                         </div>
+                        <a href="/news/10329-vsya-informaciya-o-novom-battle-pass-na-russkom-yazyke/"
+                        class="ti-prizepool" title="Призовой фонд TI2018">
+                            <span class="ti-prizepool-text">Призовой фаон The Internationla 2018 :</span> $45,000,000
+                        </a>
                         <div class="login">
-                            <a href="/forum/login/">Вход</a>
+                            <a id="logintext" href="/forum/login/">Вход</a>
                         </div>
                         <div id="menu-search">
                             <form action="/find/" method="POST">
-                                <input type="text" name="search" placeholder="Введите текст..." style="width: 160px; opacity: 1; color:darkgreen; background:darkgray; border:none">
+                                <input type="text" name="search" placeholder="Введите текст...">
                                 <i class="fa fa-search"></i>
-                                <input type="hidden" name="category" value="news">
                             </form>
                         </div>
                     </div>
                 </header>
-            </div>
+                <div class="main-b-left">
+                    <section class="m-streams">
+                        <h2>
+                            <a href="/streams/">Стримы</a>
+                        </h2>
+                        <article class="item prior1">
+                            <a href="/streams/5481-kvyzee/">
+                                <img src="img/navi.jpg" class="streamer-img">
+                            </a>
+                        </article>
+                        <article class="item prior1">
+                            <a href="/streams/5481-kvyzee/">
+                                <img src="img/navi.jpg" class="streamer-img">
+                            </a>
+                        </article>
+                        <article class="item prior1">
+                            <a href="/streams/5481-kvyzee/">
+                                <img src="img/navi.jpg" class="streamer-img">
+                            </a>
+                        </article>
+                        <article class="item prior1">
+                            <a href="/streams/5481-kvyzee/">
+                                <img src="img/navi.jpg" class="streamer-img">
+                            </a>
+                        </article>
+                        <article class="item prior1">
+                            <a href="/streams/5481-kvyzee/">
+                                <img src="img/navi.jpg" class="streamer-img">
+                            </a>
+                        </article>
+                        <article class="item prior1">
+                            <a href="/streams/5481-kvyzee/">
+                                <img src="img/navi.jpg" class="streamer-img">
+                            </a>
+                        </article>
+                        <article class="item prior1">
+                            <a href="/streams/5481-kvyzee/">
+                                <img src="img/navi.jpg" class="streamer-img">
+                            </a>
+                        </article>
+                        <article class="item prior1">
+                            <a href="/streams/5481-kvyzee/">
+                                <img src="img/navi.jpg" class="streamer-img">
+                            </a>
+                        </article>
+                        <div class="clear"></div>
+                        </section>
+                    <section class="a-news">
+                        <h2>
+                            <a href="/news/">Новости</a>
+                        </h2>
+                        <ul class="active" class="news-categoris">
+                            <li data-news-tab="0">Все</li>
+                            <li data-news-tab="1">Обновления</li>
+                            <li data-news-tab="2">Киберспорт</li>
+                            <li data-news-tab="3">Интервью</li>
+                            <li data-news-tab="4">Статьи</li>
+                            <li data-news-tab="5">Разное</li>
+                        </ul>
+                        <div class="i-news" id="news-categories-blocks">
+                            <article class="sticky">
+                                <a href="/news/10793-istoriya-sng-na-the-international/">
+                                    <div class="content">
+                                        <img class="img" src="img/News.jpg">
+                                        <div class="inline">
+                                            <h3 class="title">История СНГ на International></h3>
+                                            <div class="info">
+                                                "Главный турнир года начинается уже 20 августа. Практически всегда мы отдаем свое зрительское предпочтение командам нашего региона. Но как команды..."
+                                            </div>
+                                            <div class="info">
+                                                <span class="date">05 Авг 2018 в 21.41</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </article>
+                            <article class="sticky">
+                                <a href="/news/10793-istoriya-sng-na-the-international/">
+                                    <div class="content">
+                                        <img class="img" src="img/News.jpg">
+                                        <div class="inline">
+                                            <h3 class="title">История СНГ на International></h3>
+                                            <div class="info">
+                                                "Главный турнир года начинается уже 20 августа. Практически всегда мы отдаем свое зрительское предпочтение командам нашего региона. Но как команды..."
+                                            </div>
+                                            <div class="info">
+                                                <span class="date">05 Авг 2018 в 21.41</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </article>
+                        </div>
+                    </section>
+                </div>
+            </div>         
         </body>
 </html>
